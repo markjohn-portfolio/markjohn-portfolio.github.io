@@ -1,0 +1,71 @@
+.elementor-938 .elementor-element.elementor-element-bee50f3:not(.elementor-motion-effects-element-type-background), .elementor-938 .elementor-element.elementor-element-bee50f3 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#000000;}.elementor-938 .elementor-element.elementor-element-bee50f3 > .elementor-background-overlay{background-color:rgba(43, 43, 43, 0.97);opacity:0;transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-938 .elementor-element.elementor-element-bee50f3{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;padding:20px 50px 20px 50px;z-index:9999;}.elementor-bc-flex-widget .elementor-938 .elementor-element.elementor-element-aeb75c7.elementor-column .elementor-column-wrap{align-items:center;}.elementor-938 .elementor-element.elementor-element-aeb75c7.elementor-column.elementor-element[data-element_type="column"] > .elementor-column-wrap.elementor-element-populated > .elementor-widget-wrap{align-content:center;align-items:center;}.elementor-938 .elementor-element.elementor-element-d2708c1 .elementor-heading-title{color:#FEB062;font-family:"Catamaran", Sans-serif;font-size:25px;font-weight:800;text-transform:uppercase;}.elementor-bc-flex-widget .elementor-938 .elementor-element.elementor-element-43717f9.elementor-column .elementor-column-wrap{align-items:center;}.elementor-938 .elementor-element.elementor-element-43717f9.elementor-column.elementor-element[data-element_type="column"] > .elementor-column-wrap.elementor-element-populated > .elementor-widget-wrap{align-content:center;align-items:center;}.elementor-938 .elementor-element.elementor-element-43717f9.elementor-column > .elementor-column-wrap > .elementor-widget-wrap{justify-content:flex-end;}.elementor-938 .elementor-element.elementor-element-43717f9 > .elementor-element-populated{padding:0px 0px 0px 0px;}.elementor-938 .elementor-element.elementor-element-960f34d{width:auto;max-width:auto;}.elementor-938:not(.elementor-motion-effects-element-type-background), .elementor-938 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#000000;}@media(max-width:767px){.elementor-938 .elementor-element.elementor-element-bee50f3{padding:20px 20px 20px 20px;}.elementor-938 .elementor-element.elementor-element-aeb75c7{width:80%;}.elementor-938 .elementor-element.elementor-element-43717f9{width:20%;}}/* Start custom CSS for html, class: .elementor-element-960f34d */.elementor-938 .elementor-element.elementor-element-960f34d #menuToggle
+{
+  display: block;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  cursor: pointer;
+
+}
+
+.elementor-938 .elementor-element.elementor-element-960f34d #menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: #fff;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+.elementor-938 .elementor-element.elementor-element-960f34d #menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+.elementor-938 .elementor-element.elementor-element-960f34d #menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+.elementor-938 .elementor-element.elementor-element-960f34d #menuToggle.active span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(2px, 0px);
+  background: #fff;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+.elementor-938 .elementor-element.elementor-element-960f34d #menuToggle.active span:nth-last-child(2)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+.elementor-938 .elementor-element.elementor-element-960f34d #menuToggle.active span:nth-last-child(1)
+{
+  transform: rotate(-45deg) translate(-4px, 0px);
+}/* End custom CSS */
+/* Start custom CSS for page-settings */.elementor-938 .elementor-sticky__spacer{
+    display: none;
+}/* End custom CSS */
